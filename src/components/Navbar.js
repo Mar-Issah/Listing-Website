@@ -1,15 +1,19 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
 	return (
 		<nav>
-			<div className="logo">
-				<Image
+			<div>
+				{/* <Image
 					src="https://res.cloudinary.com/dytnpjxrd/image/upload/v1634323727/teamwork-logo_oruxk1.jpg"
 					height={77}
 					width={120}
-				/>
+				/> */}
+				<Link href="/">
+					<h1 className="logo">People Listing</h1>
+				</Link>
 			</div>
 			<div>
 				<Link href="/">
