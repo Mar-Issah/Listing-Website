@@ -6,18 +6,20 @@ const Navbar = () => {
 		<nav>
 			<div>
 				<Link href="/">
-					<h1>People Listing</h1>
+					<h1 className="logo">People Listing</h1>
 				</Link>
 			</div>
-			<Link href="/">
-				<a>Home</a>
-			</Link>
-			<Link href="/about">
-				<a>About</a>
-			</Link>
-			<Link href="/people-listing">
-				<a>People Listing</a>
-			</Link>
+			<div>
+				<Link href="/">
+					<a>Home</a>
+				</Link>
+				<Link href="/about">
+					<a>About</a>
+				</Link>
+				<Link href="/people-listing">
+					<a>People Listing</a>
+				</Link>
+			</div>
 		</nav>
 	);
 };

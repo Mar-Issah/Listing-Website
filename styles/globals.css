@@ -16,6 +16,10 @@ a {
 	color: #333;
 	text-decoration: none;
 }
+.logo {
+	color: rgb(109, 61, 5);
+	font-style: italic;
+}
 .content {
 	max-width: 960px;
 	margin: 0 auto;
@@ -24,16 +28,13 @@ nav {
 	margin: 10px auto 80px;
 	padding: 10px 0;
 	display: flex;
-	justify-content: flex-end;
-	align-items: flex-end;
+	justify-content: space-between;
 	border-bottom: 2px solid #ddd;
 }
 nav a {
 	margin-left: 12px;
 }
-nav .logo {
-	margin-right: auto;
-}
+
 footer {
 	display: block;
 	text-align: center;
