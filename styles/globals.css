@@ -43,7 +43,9 @@ footer {
 	color: #777;
 	border-top: 2px solid #eaeaea;
 }
-
+.not-found {
+	text-align: center;
+}
 .not-found a {
 	color: #4979ff;
 	text-decoration: underline;
