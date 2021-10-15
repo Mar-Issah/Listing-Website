@@ -4,9 +4,9 @@ import Link from "next/link";
 const Navbar = () => {
 	return (
 		<nav>
-			<div>
+			<div className="logo">
 				<Link href="/">
-					<h1 className="logo">People Listing</h1>
+					<img src="/public/teamwork-logo-icon-symbol-group-friends-five-happy-motivated-people-friendship-concept-colorful-isolated-white-background-132170158.jpg" />
 				</Link>
 			</div>
 			<div>
