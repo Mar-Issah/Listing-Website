@@ -1,13 +1,15 @@
 import React from "react";
-import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
 	return (
 		<nav>
 			<div className="logo">
-				<Link href="/">
-					<img src="/public/teamwork-logo-icon-symbol-group-friends-five-happy-motivated-people-friendship-concept-colorful-isolated-white-background-132170158.jpg" />
-				</Link>
+				<Image
+					src="https://res.cloudinary.com/dytnpjxrd/image/upload/v1634323727/teamwork-logo_oruxk1.jpg"
+					height={77}
+					width={120}
+				/>
 			</div>
 			<div>
 				<Link href="/">
