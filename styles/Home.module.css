@@ -4,14 +4,14 @@
 	text-align: center;
 }
 .text {
-	color: #777;
+	color: rgb(56, 56, 56);
 }
 .btn {
 	display: block;
 	width: 150px;
 	padding: 8px 0;
 	margin: 20px auto;
-	background: #4979ff;
+	background: #e9a540;
 	border-radius: 4px;
 	color: white;
 	text-align: center;
