@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "../../styles/People.module.css";
 import Link from "next/link";
 
+//use the getStaticProps function from next.js to return the people data
 export const getStaticProps = async () => {
 	const res = await fetch("https://jsonplaceholder.typicode.com/users");
 	const data = await res.json();
