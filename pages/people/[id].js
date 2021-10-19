@@ -3,9 +3,9 @@ export const getStaticPaths = async () => {
 	const data = await res.json();
 
 	// map data to an array of path objects with params (id)
-	const paths = data.map((ninja) => {
+	const paths = data.map((people) => {
 		return {
-			params: { id: ninja.id.toString() },
+			params: { id: people.id.toString() },
 		};
 	});
 
